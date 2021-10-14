@@ -7,3 +7,6 @@ kube-apiserver:v1.22.2
 kube-controller-manager:v1.22.2
 kube-proxy:v1.22.2
 kube-scheduler:v1.22.2
+
+# openstack-helm
+ingress-nginx/controller:v0.42.0
