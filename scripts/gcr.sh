@@ -2,11 +2,11 @@
 # 
 kube_image_repo=k8s.gcr.io
 docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_PASSWD
-
+echo $DOCKERHUB_USERNAME
+echo $DOCKERHUB_PASSWD
+  
 for list in `cat k8s.list|grep -v ^$|grep -v ^#`; do
   rel_list=`echo $list | sed 's/\//./g'`
-  echo $DOCKERHUB_USERNAME
-  echo $DOCKERHUB_PASSWD
   echo `------$kube_image_repo/$list------`
   docker pull $kube_image_repo/$list
   docker tag $kube_image_repo/$list $DOCKERHUB_USERNAME/$rel_list
