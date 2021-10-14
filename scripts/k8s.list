@@ -1,2 +1,3 @@
 # k8s images
 pause:3.3
+coredns/coredns:v1.8.0
