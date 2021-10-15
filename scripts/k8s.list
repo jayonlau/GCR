@@ -1,5 +1,6 @@
 # k8s images
 pause:3.3
+pause:3.2
 coredns/coredns:v1.8.0
 dns/k8s-dns-node-cache:1.17.1
 cpa/cluster-proportional-autoscaler-amd64:1.8.5
