@@ -1,2 +1,2 @@
-# GCR
-
+# 镜像中转方式
+通过github的Actions将国内无法下载的k8s.gcr的images下载，并重命名后上传到dockerhub
