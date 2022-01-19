@@ -3,6 +3,7 @@ pause:3.6
 pause:3.3
 pause:3.2
 coredns/coredns:v1.8.0
+coredns/coredns:v1.8.6
 dns/k8s-dns-node-cache:1.17.1
 dns/k8s-dns-node-cache:1.21.1
 cpa/cluster-proportional-autoscaler-amd64:1.8.5
