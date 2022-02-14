@@ -35,5 +35,6 @@ kube-scheduler:v1.20.0
 
 # openstack-helm
 ingress-nginx/controller:v0.42.0
+ingress-nginx/controller:v0.40.0
 defaultbackend:1.4
 hyperkube-amd64:v1.11.6
