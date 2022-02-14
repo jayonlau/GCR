@@ -33,6 +33,11 @@ kube-controller-manager:v1.20.0
 kube-proxy:v1.20.0
 kube-scheduler:v1.20.0
 
+kube-apiserver:v1.21.0
+kube-controller-manager:v1.21.0
+kube-proxy:v1.21.0
+kube-scheduler:v1.21.0
+
 # openstack-helm
 ingress-nginx/controller:v0.42.0
 ingress-nginx/controller:v0.40.0
