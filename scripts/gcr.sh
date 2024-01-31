@@ -10,6 +10,6 @@ echo $DOCKERHUB_PASSWD
 for list in `cat k8s.list|grep -v ^$|grep -v ^#`; do
   rel_list=`echo $list | sed 's/\//./g'`
   docker pull $kube_image_repo/$list
-  docker tag $kube_image_repo/$list $DOCKERHUB_USERNAME/$rel_list
-  docker push $DOCKERHUB_USERNAME/$rel_list
+  docker tag $kube_image_repo/$list $DOCKERHUB_USERNAME/$list
+  docker push $DOCKERHUB_USERNAME/$list
 done
