@@ -1,1 +1,4 @@
-registry.k8s.io
+kube-apiserver:v1.28.6
+kube-controller-manager:v1.28.6
+kube-proxy:v1.28.6
+kube-scheduler:v1.28.6
