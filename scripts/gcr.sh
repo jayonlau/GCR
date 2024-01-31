@@ -5,7 +5,7 @@ kube_image_repo=k8s.gcr.io
 docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_PASSWD
 
 
-docker pull gcr.io/google-containers/kube-apiserver:v1.28.6
+docker pull registry.k8s.io/kube-apiserver:v1.28.6
 for list in `cat k8s.list|grep -v ^$|grep -v ^#`; do
   rel_list=`echo $list | sed 's/\//./g'`
   docker pull $kube_image_repo/$list
