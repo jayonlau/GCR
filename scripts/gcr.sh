@@ -1,5 +1,6 @@
 #/bin/bash
 # 
+set -x
 
 kube_image_repo=k8s.gcr.io
 docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_PASSWD
